@@ -14,7 +14,7 @@ body {
     justify-content: space-around;
     width: auto;
     background-color: rgb(2, 2, 65);
-    padding-top: 0px 20px;
+    padding-top: 20px;
     padding-bottom: 10px;
     margin-left:0px;
     cursor: pointer;
@@ -29,6 +29,7 @@ body {
    .my-profile {
     padding: 0px;
     text-align: center;
+    height: auto;
    } 
    .my-profile h1 {
     color: rgb(114, 114, 206);
@@ -80,7 +81,7 @@ body {
     padding: 2% 2% 2% 2%;
     background-color: rgb(5, 5, 94);
     border-radius:30px;
-    box-shadow: 2px;
+    box-shadow: 2px 2px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -91,7 +92,7 @@ body {
     padding: 2% 2% 2% 2%;
     background-color: rgb(5, 5, 94);
     border-radius:30px;
-    box-shadow: 5px;
+    box-shadow: 2px 2px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -102,7 +103,7 @@ body {
     padding: 2% 2% 2% 2%;
     background-color: rgb(5, 5, 94);
     border-radius: 30px;
-    box-shadow: 5px;
+    box-shadow: 2px 2px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,7 +123,7 @@ h2 {
     text-align: center;
 }
 
-.socials {
+.social-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,7 +132,9 @@ h2 {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    
+    /* .ada {
+        height: 0.5px;
+    } */
     
 
 }
@@ -139,4 +142,7 @@ h2 {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+}
+#social-logo img {
+    width: 30px; height: 20px;
 }
