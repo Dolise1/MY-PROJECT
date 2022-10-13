@@ -2,10 +2,11 @@ body {
     width: 100%;
     background-color: white;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
 }
 .nav-links {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
     font-size:10px;
     color: white;
@@ -14,69 +15,86 @@ body {
     justify-content: space-around;
     width: auto;
     background-color: rgb(2, 2, 65);
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-left:0px;
+    padding: 5px 0px;
     cursor: pointer;
-
-   
+    height: 40px;
+}
+#adapix{
+    margin-top: 20px;
 }
 .nav-links h1{
     width: 45%;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    font-size: 15px; 
 }
    .my-profile {
     padding: 0px;
     text-align: center;
     height: auto;
-   } 
+} 
    .my-profile h1 {
     color: rgb(114, 114, 206);
-    font-family: Arial, Helvetica, sans-serif;
-   }
- .contact {
+}
+   .my-profile p{
+    font-weight: 600;
+    font-size: 20px;
+}
+   #location{
+    font-weight: 600;
+    font-size: 20px;
+}
+   .contact{
     display: flex;
-    border-radius: 10px;
-    margin: 0px 10px 10px 10px;
-    background-color: rgb(45, 45, 85);
+    justify-content: space-between;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-right: 30%;
-    justify-content:center;
-    align-content: space-around;
-    margin-top: 50px;
-    padding: 3% 3% 3% 3%;
-
- }
-
+    background-color: rgb(45, 45, 85);
+    padding: 30px 60px ;
+    height: 210px;
+    margin-top: 20px;
+    text-align:justify;
+}
+   #myservices {
+    padding-left: 40px;
+    padding-top: 20px;
+}
     .passion {
         width: 45%;
-        margin-left: 0px;
-        padding: 3% 3% 3% 3%;
-        
-    
-    }
-.remote {
-    width: 45%;
-    margin-top: 10px;
-    padding: 3% 3% 3% 3%;
 }
-
+    .passion1{
+        font-size: 18px;
+}
+    .passion2{
+        font-size: 18px;
+}
  .email {
     color: white;
- }
- 
- .container{
+    cursor: pointer;
+    margin-top: 10px;
+}
+ .email:hover {
+    text-decoration: underline;
+    color: rgb(219, 219, 37);
+    font-weight: 600;
+    cursor: pointer;
+}
+ .tel:hover {
+    text-decoration: underline;
+    color: rgb(219, 219, 37);
+    font-weight: 600;
+    cursor: pointer;
+}    
+ #container {
     display: flex;
     width: 100%;
     height: auto;
     justify-content: space-around;
     margin-top: 50px;
     flex-flow: row;
- }
-.box1{
-    width: 20%;
+}
+.box1 {
+    width: 25%;
     height: auto;
     padding: 2% 2% 2% 2%;
     background-color: rgb(5, 5, 94);
@@ -84,10 +102,14 @@ body {
     box-shadow: 2px 2px;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+}
+  .box1:hover {
+    background-color: white;
+    color: rgb(5, 5, 94);
+    font-weight: 600;
+}
 .box2 {
-    width: 20%;
+    width: 25%;
     height: auto;
     padding: 2% 2% 2% 2%;
     background-color: rgb(5, 5, 94);
@@ -95,10 +117,14 @@ body {
     box-shadow: 2px 2px;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+}
+.box2:hover {
+    background-color: white;
+    color: rgb(5, 5, 94);
+    font-weight: 600;
 }
 .box3 {
-    width: 20%;
+    width: 25%;
     height: auto;
     padding: 2% 2% 2% 2%;
     background-color: rgb(5, 5, 94);
@@ -106,13 +132,13 @@ body {
     box-shadow: 2px 2px;
     color: white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
-h2 {
-    padding-left: 20px;
-    margin-top: 50px;
+.box3:hover {
+    background-color: white;
+    color: rgb(5, 5, 94);
+    font-weight: 600;
 }
-.footer {
+#footer {
     width: 100%;
     height: 200px;
     padding: 5% 0% 5% 0%;
@@ -122,7 +148,6 @@ h2 {
     justify-content: center;
     text-align: center;
 }
-
 .social-logo {
     display: flex;
     flex-direction: column;
@@ -131,12 +156,6 @@ h2 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    /* .ada {
-        height: 0.5px;
-    } */
-    
-
 }
 .me {
     justify-content: center;
